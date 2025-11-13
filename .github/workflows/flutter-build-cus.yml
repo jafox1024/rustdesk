@@ -16,9 +16,10 @@ permissions:
   contents: read
 
 env:
-#Default values (use GitHub Secrets instead for production).
 
-DEFAULT_RENDEZVOUS_SERVER: example.yourdomain.tld DEFAULT_RS_PUB_KEY: "REPLACE_WITH_BASE64_PUBLIC_KEY" DEFAULT_RELAY_SERVER: ""
+DEFAULT_RENDEZVOUS_SERVER: example.yourdomain.tld 
+DEFAULT_RS_PUB_KEY: "REPLACE_WITH_BASE64_PUBLIC_KEY" 
+DEFAULT_RELAY_SERVER: ""
 
 jobs: 
   build-windows-x64: 
